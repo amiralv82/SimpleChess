@@ -1,6 +1,66 @@
-# SimpleChess
-In this project, a simple chess has been designed by java. In this chess, it is possible to play in two-player and single-player mode, and for this reason, it has basic and simple artificial intelligence, so that it is possible to play single-player. There is also the ability to save the game and resume the game.
-Among the weaknesses of this game:
-1- Basic and weak artificial intelligence
-2- The impossibility of changing the pawn at the end of the board to other pieces
-3- Absence of Kish (the game ends when one of the players kills the opponent's king)
+# ♟️ SimpleChess
+
+**SimpleChess** is a Java-based chess game featuring a graphical user interface. It supports both **two-player** and **single-player** modes with a simple AI opponent. Players can move pieces by **clicking** on them and selecting their destination. The game also includes functionality to **save and resume** progress.
+
+---
+
+## Features
+
+- Graphical UI with mouse-based interaction
+- Two-player mode (local)
+- Single-player mode with basic AI
+- Valid move checking for all pieces:
+  - Pawn, Rook, Knight, Bishop, Queen, King
+- Save and load game functionality
+- Turn-based play (White starts)
+- Illegal moves are blocked
+
+---
+
+## How to Run
+
+### Requirements:
+- Java 8 or higher
+
+### Steps:
+1. Compile the code:
+```bash
+javac Main.java
+```
+2.	Run the game:
+
+java Main
+
+
+
+Or open the project in an IDE (like IntelliJ or Eclipse) and run Main.java.
+
+---
+
+Gameplay Instructions
+	•	Click a piece to select it.
+	•	Click a valid destination square to move.
+	•	In single-player mode, the AI will make a move after you do.
+	•	Use the in-game menu or button to save and load game state.
+
+---
+
+Project Structure
+```bash
+SimpleChess/
+├── board/            # Board display and logic
+├── pieces/           # Classes for each chess piece
+├── players/          # Player and AI logic
+├── utils/            # Utility classes and helpers
+├── save/             # Save/load game state
+├── Main.java         # Application entry point
+```
+---
+
+Author
+
+Amir-Abbas Alvand
+
+---
+
+Let me know if you want to add a screenshot section later — or if you’d like help creating your first GitHub Release for this project.
